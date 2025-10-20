@@ -1,0 +1,10 @@
+
+/* Button.modules.css, avoids naming conflicts with hashing algorithm */
+.button{
+  background-color: hsl(200, 100%, 50%);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
