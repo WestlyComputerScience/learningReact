@@ -11,6 +11,7 @@ import ClickEvent from './clickEvent.jsx'
 import UseState from './useState.jsx'
 import OnChange from './onChange'
 import ColorPicker from './ColorPicker'
+import UpdateFunction from './UpdaterFunction.jsx'
 
 /*
 How to style react components with CSS
@@ -51,6 +52,7 @@ function App() {
   
   // === PART 6 ===
   /**/
+  /*
   const fruits = [{id : 1, name : "apple", calories : 50}, 
                   {id : 2, name : "orange", calories : 45}, 
                   {id : 3, name : "banana", calories : 105}, 
@@ -62,7 +64,8 @@ function App() {
                   {id : 9, name : "corn", calories : 63},     
                   {id : 10, name : "broccoli", calories : 50}];
   const empty = [];
-  
+  */
+
   return(
     <> {/*Enclose components in a fragment, allows us to return something as 1 element*/}
       {/* === PART 1 ===
@@ -111,7 +114,7 @@ function App() {
       <OnChange/>
       */}
       {/* === Part 10 ===
-      
+      <ColorPicker/>
       */}
       {/* === Part 11 ===
       
@@ -143,7 +146,7 @@ function App() {
       {/* === Part 20 ===
       
       */}
-      <ColorPicker/>
+      <UpdateFunction/>
     </>
   );
 }
