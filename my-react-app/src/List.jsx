@@ -16,7 +16,7 @@ function List(){
 
     // for each list element fruit => (do) a new list element of that fruit
     const listItems = fruits.map(fruit => <li key={fruit.id}>{fruit.name} 
-                                            : &nbsp; <b>{fruit.calories}</b> calories</li>); // &nbsp (non-braking space character)
+                                            : &nbsp; <b>{fruit.calories}</b> calories</li>); // &nbsp (non-braking space character) (i.e. if we need 100 km to be on the same line)
     
     const lowCalListItems = lowCalFruits.map(lowCalFruit => <li key={lowCalFruit.id}>
                                             {lowCalFruit.name} : &nbsp; <b>{lowCalFruit.calories}</b> calories

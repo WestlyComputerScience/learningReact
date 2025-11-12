@@ -121,7 +121,7 @@ function App() {
       <UpdateFunction/>
       */}
       {/* === Part 12 ===
-      
+      <UpdateObjects/>
       */}
       {/* === Part 13 ===
       
@@ -147,7 +147,7 @@ function App() {
       {/* === Part 20 ===
       
       */}
-      <UpdateObjects/>
+      
     </>
   );
 }
