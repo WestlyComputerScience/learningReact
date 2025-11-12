@@ -12,6 +12,7 @@ import UseState from './useState.jsx'
 import OnChange from './onChange'
 import ColorPicker from './ColorPicker'
 import UpdateFunction from './UpdaterFunction.jsx'
+import UpdateObjects from './UpdateObjects.jsx'
 
 /*
 How to style react components with CSS
@@ -117,7 +118,7 @@ function App() {
       <ColorPicker/>
       */}
       {/* === Part 11 ===
-      
+      <UpdateFunction/>
       */}
       {/* === Part 12 ===
       
@@ -146,7 +147,7 @@ function App() {
       {/* === Part 20 ===
       
       */}
-      <UpdateFunction/>
+      <UpdateObjects/>
     </>
   );
 }
