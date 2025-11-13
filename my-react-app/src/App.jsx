@@ -13,6 +13,7 @@ import OnChange from './onChange'
 import ColorPicker from './ColorPicker'
 import UpdateFunction from './UpdaterFunction.jsx'
 import UpdateObjects from './UpdateObjects.jsx'
+import UpdateArrayState from './UpdateArrayState.jsx'
 
 /*
 How to style react components with CSS
@@ -124,7 +125,7 @@ function App() {
       <UpdateObjects/>
       */}
       {/* === Part 13 ===
-      
+      <UpdateArrayState/>
       */}
       {/* === Part 14 ===
       
@@ -147,7 +148,7 @@ function App() {
       {/* === Part 20 ===
       
       */}
-      
+      <UpdateArrayState/>
     </>
   );
 }
